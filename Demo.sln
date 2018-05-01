@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM", "MVVM", "{9A73D66B-3655-4764-824A-681480EBA329}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Spring", "Spring", "{DD563C29-6A42-4010-8939-EEB689CC7FAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IBatis", "IBatis", "{C7376867-D349-4411-9F30-A8D09B70309C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyElephant.Client", "MVVM\CrazyElephant.Client\CrazyElephant.Client.csproj", "{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMvvmDemo.Client", "MVVM\SimpleMvvmDemo.Client\SimpleMvvmDemo.Client.csproj", "{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpringDemo", "Spring\SpringDemo\SpringDemo.csproj", "{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBatisDemo", "IBatis\IBatisDemo\IBatisDemo.csproj", "{8EA974C2-635A-4ADA-A097-D2274B4F8F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapper", "Dapper", "{1599BF8F-1B21-4363-B24F-0B7272135A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperDemo", "DapperDemo\DapperDemo.csproj", "{7C514ED2-300B-441A-AD3F-66965F279B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cnblog", "cnblog", "{077022F6-4124-490A-BEC8-3157B1309AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditableDataGridViewComboBox", "cnblog\EditableDataGridViewComboBox\EditableDataGridViewComboBox.csproj", "{1CEFD834-26C1-4D29-820C-D0CE1C308C13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C514ED2-300B-441A-AD3F-66965F279B6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C514ED2-300B-441A-AD3F-66965F279B6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C514ED2-300B-441A-AD3F-66965F279B6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C514ED2-300B-441A-AD3F-66965F279B6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F9B89F9-EA57-4882-93DF-BAC37EEA9CBE} = {9A73D66B-3655-4764-824A-681480EBA329}
+		{3F6E1411-5BAA-4A26-8C57-EEE12A773E1C} = {9A73D66B-3655-4764-824A-681480EBA329}
+		{98B3ECB4-D789-49FB-BFA3-0CAD55BB4E98} = {DD563C29-6A42-4010-8939-EEB689CC7FAF}
+		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D} = {C7376867-D349-4411-9F30-A8D09B70309C}
+		{7C514ED2-300B-441A-AD3F-66965F279B6C} = {1599BF8F-1B21-4363-B24F-0B7272135A8D}
+		{1CEFD834-26C1-4D29-820C-D0CE1C308C13} = {077022F6-4124-490A-BEC8-3157B1309AE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {EBBF6F93-7F73-4CCD-A5AC-6BA2B62E4FF0}
+	EndGlobalSection
+EndGlobal
