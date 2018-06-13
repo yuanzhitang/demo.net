@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditableDataGridViewComboBo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyletDemo", "MVVM\StyletDemo\StyletDemo.csproj", "{A4E91E30-5AC1-4FB7-8709-823358842620}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPFUI", "WPFUI", "{A173F412-9021-40B2-8312-5F89A376DCE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaterialDesignDemo", "WPFUI\MaterialDesignDemo\MaterialDesignDemo.csproj", "{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{A4E91E30-5AC1-4FB7-8709-823358842620}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4E91E30-5AC1-4FB7-8709-823358842620}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4E91E30-5AC1-4FB7-8709-823358842620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,9 +81,10 @@ Global
 		{7C514ED2-300B-441A-AD3F-66965F279B6C} = {1599BF8F-1B21-4363-B24F-0B7272135A8D}
 		{1CEFD834-26C1-4D29-820C-D0CE1C308C13} = {077022F6-4124-490A-BEC8-3157B1309AE6}
 		{A4E91E30-5AC1-4FB7-8709-823358842620} = {9A73D66B-3655-4764-824A-681480EBA329}
+		{12F1C90F-3F32-40B3-ACDC-A94FC12BA55A} = {A173F412-9021-40B2-8312-5F89A376DCE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EBBF6F93-7F73-4CCD-A5AC-6BA2B62E4FF0}
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
+		SolutionGuid = {EBBF6F93-7F73-4CCD-A5AC-6BA2B62E4FF0}
 	EndGlobalSection
 EndGlobal
