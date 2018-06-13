@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cnblog", "cnblog", "{077022
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditableDataGridViewComboBox", "cnblog\EditableDataGridViewComboBox\EditableDataGridViewComboBox.csproj", "{1CEFD834-26C1-4D29-820C-D0CE1C308C13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyletDemo", "MVVM\StyletDemo\StyletDemo.csproj", "{A4E91E30-5AC1-4FB7-8709-823358842620}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CEFD834-26C1-4D29-820C-D0CE1C308C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E91E30-5AC1-4FB7-8709-823358842620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E91E30-5AC1-4FB7-8709-823358842620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E91E30-5AC1-4FB7-8709-823358842620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E91E30-5AC1-4FB7-8709-823358842620}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,9 +72,10 @@ Global
 		{8EA974C2-635A-4ADA-A097-D2274B4F8F9D} = {C7376867-D349-4411-9F30-A8D09B70309C}
 		{7C514ED2-300B-441A-AD3F-66965F279B6C} = {1599BF8F-1B21-4363-B24F-0B7272135A8D}
 		{1CEFD834-26C1-4D29-820C-D0CE1C308C13} = {077022F6-4124-490A-BEC8-3157B1309AE6}
+		{A4E91E30-5AC1-4FB7-8709-823358842620} = {9A73D66B-3655-4764-824A-681480EBA329}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 		SolutionGuid = {EBBF6F93-7F73-4CCD-A5AC-6BA2B62E4FF0}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal

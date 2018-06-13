@@ -1,4 +1,7 @@
-﻿using System;
+﻿using IBatisDemo.Domain;
+using IBatisNet.DataMapper;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +13,10 @@ namespace IBatusDemo
     {
         static void Main(string[] args)
         {
+            ISqlMapper mapper = Mapper.Instance();
+            IList<SY_Staff> staffs = mapper.QueryForList<SY_Staff>("GetAllStaffs", null);
+            Console.WriteLine(staffs.Count);
+            Console.ReadLine();
         }
     }
 }

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sqlMap namespace="IBatisDemo.Domain" 
+        xmlns="http://ibatis.apache.org/mapping"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cacheModels>
+        <cacheModel id="StaffCache" implementation="LRU">
+            <flushInterval hours="24" />
+            <property name="CacheSize" value="1000" />
+        </cacheModel>
+    </cacheModels>
+    <statements>
+        <select id="GetAllStaffs" cacheModel="StaffCache" resultClass="IBatisDemo.Domain.SY_Staff">
+            select * from SY_Staff
+        </select>
+    </statements>
+</sqlMap>
